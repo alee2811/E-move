@@ -1,0 +1,53 @@
+import SwiftUI
+
+struct CarView: View {
+    var body: some View {
+        ZStack {
+            Image("auto")
+                .ignoresSafeArea()
+            VStack {
+                ZStack {
+                    
+                    RoundedRectangle(cornerRadius: 20)
+                        .foregroundColor(Color("turquesa"))
+                        .frame(height: 60)
+                        .offset(y:-60)
+                }
+            }
+        }
+    }
+}
+
+
+struct CarView_Previews: PreviewProvider {
+    static var previews: some View {
+        CarView()
+    }
+}
+
+
+
+
+
+
+
+
+
+import SwiftUI
+
+struct bikeView: View {
+    var body: some View {
+        Text("Veamos")
+    }
+}
+
+struct bikeView_Previews: PreviewProvider {
+    static var previews: some View {
+        CarView()
+    }
+}
+
+
+
+
+
